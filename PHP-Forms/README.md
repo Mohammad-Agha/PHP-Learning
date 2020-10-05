@@ -2,7 +2,7 @@
 
 #### Form Handling
 
-* When processing a form thing of user's security
+* When processing a form think of user's security
 
 * GET vs. POST
 
