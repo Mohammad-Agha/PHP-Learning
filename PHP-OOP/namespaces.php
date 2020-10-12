@@ -9,6 +9,18 @@ Everything declared in this file will belong to that namespace
 It's possible to have nested namespaces
 */
 
-namespace HelloWorld;
+namespace Html;
 
-use HelloWorld as hw; // alias
+class Table {
+    public $title = "";
+    public $numRows = 0;
+    public function message() {
+        echo "Table '{$this->title}' has {$this->numRows} rows.\n";
+    }
+}
+
+$table = new Table();
+$table->title = "My Table";
+$table->numRows = 5;
+
+$table->message();
